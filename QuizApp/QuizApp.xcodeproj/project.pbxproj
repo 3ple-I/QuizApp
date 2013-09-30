@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22268AEE17F9C34300ED2512 /* QACategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AED17F9C34300ED2512 /* QACategoryListViewController.m */; };
+		22268AF117F9C38B00ED2512 /* QAStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AF017F9C38B00ED2512 /* QAStatsViewController.m */; };
+		22268AF717F9C48000ED2512 /* QAQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AF617F9C48000ED2512 /* QAQuestionViewController.m */; };
+		22268AFA17F9C4E500ED2512 /* QAResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AF917F9C4E500ED2512 /* QAResultsViewController.m */; };
+		22268AFD17F9C5CA00ED2512 /* QACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AFC17F9C5CA00ED2512 /* QACategory.m */; };
+		22268B0017F9C76200ED2512 /* QAQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AFF17F9C76200ED2512 /* QAQuestion.m */; };
+		22268B0317F9C8FB00ED2512 /* QAPauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268B0217F9C8FB00ED2512 /* QAPauseViewController.m */; };
+		22268B0617F9C95E00ED2512 /* QAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268B0517F9C95E00ED2512 /* QAAboutViewController.m */; };
 		B40F208E17F9B80500AC5DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F208D17F9B80400AC5DCE /* Foundation.framework */; };
 		B40F209017F9B80500AC5DCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F208F17F9B80500AC5DCE /* CoreGraphics.framework */; };
 		B40F209217F9B80500AC5DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F209117F9B80500AC5DCE /* UIKit.framework */; };
@@ -14,7 +22,6 @@
 		B40F209A17F9B80500AC5DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F209917F9B80500AC5DCE /* main.m */; };
 		B40F209E17F9B80500AC5DCE /* QAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F209D17F9B80500AC5DCE /* QAAppDelegate.m */; };
 		B40F20A117F9B80500AC5DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40F209F17F9B80500AC5DCE /* Main.storyboard */; };
-		B40F20A417F9B80500AC5DCE /* QAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40F20A317F9B80500AC5DCE /* QAViewController.m */; };
 		B40F20A617F9B80500AC5DCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40F20A517F9B80500AC5DCE /* Images.xcassets */; };
 		B40F20AD17F9B80500AC5DCE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F20AC17F9B80500AC5DCE /* XCTest.framework */; };
 		B40F20AE17F9B80500AC5DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F208D17F9B80400AC5DCE /* Foundation.framework */; };
@@ -34,6 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22268AEC17F9C34300ED2512 /* QACategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACategoryListViewController.h; sourceTree = "<group>"; };
+		22268AED17F9C34300ED2512 /* QACategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACategoryListViewController.m; sourceTree = "<group>"; };
+		22268AEF17F9C38B00ED2512 /* QAStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAStatsViewController.h; sourceTree = "<group>"; };
+		22268AF017F9C38B00ED2512 /* QAStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAStatsViewController.m; sourceTree = "<group>"; };
+		22268AF517F9C48000ED2512 /* QAQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAQuestionViewController.h; sourceTree = "<group>"; };
+		22268AF617F9C48000ED2512 /* QAQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAQuestionViewController.m; sourceTree = "<group>"; };
+		22268AF817F9C4E500ED2512 /* QAResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAResultsViewController.h; sourceTree = "<group>"; };
+		22268AF917F9C4E500ED2512 /* QAResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAResultsViewController.m; sourceTree = "<group>"; };
+		22268AFB17F9C5CA00ED2512 /* QACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACategory.h; sourceTree = "<group>"; };
+		22268AFC17F9C5CA00ED2512 /* QACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACategory.m; sourceTree = "<group>"; };
+		22268AFE17F9C76200ED2512 /* QAQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAQuestion.h; sourceTree = "<group>"; };
+		22268AFF17F9C76200ED2512 /* QAQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAQuestion.m; sourceTree = "<group>"; };
+		22268B0117F9C8FB00ED2512 /* QAPauseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAPauseViewController.h; sourceTree = "<group>"; };
+		22268B0217F9C8FB00ED2512 /* QAPauseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAPauseViewController.m; sourceTree = "<group>"; };
+		22268B0417F9C95E00ED2512 /* QAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAAboutViewController.h; sourceTree = "<group>"; };
+		22268B0517F9C95E00ED2512 /* QAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAAboutViewController.m; sourceTree = "<group>"; };
 		B40F208A17F9B80400AC5DCE /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40F208D17F9B80400AC5DCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B40F208F17F9B80500AC5DCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +68,6 @@
 		B40F209C17F9B80500AC5DCE /* QAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAAppDelegate.h; sourceTree = "<group>"; };
 		B40F209D17F9B80500AC5DCE /* QAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAAppDelegate.m; sourceTree = "<group>"; };
 		B40F20A017F9B80500AC5DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B40F20A217F9B80500AC5DCE /* QAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAViewController.h; sourceTree = "<group>"; };
-		B40F20A317F9B80500AC5DCE /* QAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAViewController.m; sourceTree = "<group>"; };
 		B40F20A517F9B80500AC5DCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B40F20AB17F9B80500AC5DCE /* QuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40F20AC17F9B80500AC5DCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,6 +100,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22268AE817F9C32A00ED2512 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22268AEC17F9C34300ED2512 /* QACategoryListViewController.h */,
+				22268AED17F9C34300ED2512 /* QACategoryListViewController.m */,
+				22268B0417F9C95E00ED2512 /* QAAboutViewController.h */,
+				22268B0517F9C95E00ED2512 /* QAAboutViewController.m */,
+				22268AEF17F9C38B00ED2512 /* QAStatsViewController.h */,
+				22268AF017F9C38B00ED2512 /* QAStatsViewController.m */,
+				22268AF517F9C48000ED2512 /* QAQuestionViewController.h */,
+				22268AF617F9C48000ED2512 /* QAQuestionViewController.m */,
+				22268B0117F9C8FB00ED2512 /* QAPauseViewController.h */,
+				22268B0217F9C8FB00ED2512 /* QAPauseViewController.m */,
+				22268AF817F9C4E500ED2512 /* QAResultsViewController.h */,
+				22268AF917F9C4E500ED2512 /* QAResultsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22268AE917F9C32A00ED2512 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		22268AEA17F9C32A00ED2512 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22268AFB17F9C5CA00ED2512 /* QACategory.h */,
+				22268AFC17F9C5CA00ED2512 /* QACategory.m */,
+				22268AFE17F9C76200ED2512 /* QAQuestion.h */,
+				22268AFF17F9C76200ED2512 /* QAQuestion.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B40F208117F9B80400AC5DCE = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +170,12 @@
 		B40F209317F9B80500AC5DCE /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				22268AE817F9C32A00ED2512 /* Controller */,
+				22268AEA17F9C32A00ED2512 /* Model */,
+				22268AE917F9C32A00ED2512 /* Data */,
 				B40F209C17F9B80500AC5DCE /* QAAppDelegate.h */,
 				B40F209D17F9B80500AC5DCE /* QAAppDelegate.m */,
 				B40F209F17F9B80500AC5DCE /* Main.storyboard */,
-				B40F20A217F9B80500AC5DCE /* QAViewController.h */,
-				B40F20A317F9B80500AC5DCE /* QAViewController.m */,
 				B40F20A517F9B80500AC5DCE /* Images.xcassets */,
 				B40F209417F9B80500AC5DCE /* Supporting Files */,
 			);
@@ -250,9 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40F20A417F9B80500AC5DCE /* QAViewController.m in Sources */,
+				22268B0617F9C95E00ED2512 /* QAAboutViewController.m in Sources */,
 				B40F209E17F9B80500AC5DCE /* QAAppDelegate.m in Sources */,
+				22268B0017F9C76200ED2512 /* QAQuestion.m in Sources */,
 				B40F209A17F9B80500AC5DCE /* main.m in Sources */,
+				22268AFD17F9C5CA00ED2512 /* QACategory.m in Sources */,
+				22268AF117F9C38B00ED2512 /* QAStatsViewController.m in Sources */,
+				22268AF717F9C48000ED2512 /* QAQuestionViewController.m in Sources */,
+				22268AEE17F9C34300ED2512 /* QACategoryListViewController.m in Sources */,
+				22268AFA17F9C4E500ED2512 /* QAResultsViewController.m in Sources */,
+				22268B0317F9C8FB00ED2512 /* QAPauseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +527,7 @@
 				B40F20BE17F9B80500AC5DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B40F20BF17F9B80500AC5DCE /* Build configuration list for PBXNativeTarget "QuizAppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +536,7 @@
 				B40F20C117F9B80500AC5DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
