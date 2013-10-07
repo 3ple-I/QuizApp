@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>Vilket land vann handbolls-VM år 2011? </string>
+			<key>right</key>
+			<string>Frankrike</string>
+			<key>wrong</key>
+			<array>
+				<string>Kroatien</string>
+				<string>Polen</string>
+				<string>Tyskland</string>
+				<string>Sverige</string>
+				<string>Spanien</string>
+				<string>Danmark</string>
+				<string>Island</string>
+			</array>
+		</dict>
+	</array>
+</dict>
 </plist>
