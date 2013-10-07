@@ -8,6 +8,37 @@
 	<array>
 		<dict>
 			<key>question</key>
+			<string>I vilket år gjorde den spanske mittbacken Carles Puyol sitt första landslagsmål?</string>
+			<key>right</key>
+			<string>2002</string>
+			<key>wrong</key>
+			<array>
+				<string>2001</string>
+				<string>2003</string>
+				<string>2004</string>
+				<string>2006</string>
+				<string>2005</string>
+				<string>2008</string>
+			</array>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Vilket landslag var först med att vinna Fotbolls-VM två gånger i rad?</string>
+			<key>right</key>
+			<string>Italien</string>
+			<key>wrong</key>
+			<array>
+				<string>Brasilien</string>
+				<string>Sverige</string>
+				<string>Uruguay</string>
+				<string>Frankrike</string>
+				<string>Tyskland</string>
+				<string>Spanien</string>
+				<string>Portugal</string>
+			</array>
+		</dict>
+		<dict>
+			<key>question</key>
 			<string>Vem har gjort flest landslagsmål?</string>
 			<key>right</key>
 			<string>Ali Daei</string>
