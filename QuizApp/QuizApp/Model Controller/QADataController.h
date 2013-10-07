@@ -10,8 +10,10 @@
 
 @interface QADataController : NSObject
 
-@property (nonatomic, strong) NSArray *categories;
+@property (nonatomic, strong) NSMutableArray *categories;
 
 + (instancetype)sharedController;
+
+- (void)loadData;
 
 @end

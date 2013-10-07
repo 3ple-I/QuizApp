@@ -11,6 +11,6 @@
 @interface QACategory : NSObject
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSArray *questions;
+@property (nonatomic, strong) NSMutableArray *questions;
 
 @end

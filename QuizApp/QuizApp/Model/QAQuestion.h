@@ -10,9 +10,9 @@
 
 @interface QAQuestion : NSObject
 
-@property (nonatomic, strong) NSString *text;
+@property (nonatomic, strong) NSString *question;
 @property (nonatomic, strong) NSString *hint;
-@property (nonatomic, strong) NSString *rightAnswer;
-@property (nonatomic, strong) NSArray *wrongAnswers;
+@property (nonatomic, strong) NSString *right;
+@property (nonatomic, strong) NSArray *wrong;
 
 @end

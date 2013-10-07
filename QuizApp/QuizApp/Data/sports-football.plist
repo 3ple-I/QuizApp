@@ -9,6 +9,8 @@
 		<dict>
 			<key>question</key>
 			<string>I vilket år gjorde den spanske mittbacken Carles Puyol sitt första landslagsmål?</string>
+			<key>hint</key>
+			<string>adsfghjkl</string>
 			<key>right</key>
 			<string>2002</string>
 			<key>wrong</key>

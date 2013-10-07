@@ -7,12 +7,13 @@
 //
 
 #import "QAAppDelegate.h"
+#import "QADataController.h"
 
 @implementation QAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSLog(@"Test");
+	[QADataController sharedController];
     
     // Override point for customization after application launch.
     return YES;
