@@ -15,6 +15,10 @@
 		22268B0017F9C76200ED2512 /* QAQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AFF17F9C76200ED2512 /* QAQuestion.m */; };
 		22268B0317F9C8FB00ED2512 /* QAPauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268B0217F9C8FB00ED2512 /* QAPauseViewController.m */; };
 		22268B0617F9C95E00ED2512 /* QAAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268B0517F9C95E00ED2512 /* QAAboutViewController.m */; };
+		22B502021802F1E4004F070A /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B502011802F1E4004F070A /* Categories.plist */; };
+		22B502041802F356004F070A /* sports-football.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B502031802F356004F070A /* sports-football.plist */; };
+		22B502071802F3AC004F070A /* sports-handball.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B502061802F3AC004F070A /* sports-handball.plist */; };
+		22B5020A1802F3C1004F070A /* history-1990s.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B502091802F3C1004F070A /* history-1990s.plist */; };
 		B40F208E17F9B80500AC5DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F208D17F9B80400AC5DCE /* Foundation.framework */; };
 		B40F209017F9B80500AC5DCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F208F17F9B80500AC5DCE /* CoreGraphics.framework */; };
 		B40F209217F9B80500AC5DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40F209117F9B80500AC5DCE /* UIKit.framework */; };
@@ -57,6 +61,10 @@
 		22268B0217F9C8FB00ED2512 /* QAPauseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAPauseViewController.m; sourceTree = "<group>"; };
 		22268B0417F9C95E00ED2512 /* QAAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAAboutViewController.h; sourceTree = "<group>"; };
 		22268B0517F9C95E00ED2512 /* QAAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAAboutViewController.m; sourceTree = "<group>"; };
+		22B502011802F1E4004F070A /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
+		22B502031802F356004F070A /* sports-football.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sports-football.plist"; sourceTree = "<group>"; };
+		22B502061802F3AC004F070A /* sports-handball.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sports-handball.plist"; sourceTree = "<group>"; };
+		22B502091802F3C1004F070A /* history-1990s.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "history-1990s.plist"; sourceTree = "<group>"; };
 		B40F208A17F9B80400AC5DCE /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40F208D17F9B80400AC5DCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B40F208F17F9B80500AC5DCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +130,9 @@
 		22268AE917F9C32A00ED2512 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				22B502011802F1E4004F070A /* Categories.plist */,
+				22B502081802F3B0004F070A /* History */,
+				22B502051802F37D004F070A /* Sports */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -135,6 +146,23 @@
 				22268AFF17F9C76200ED2512 /* QAQuestion.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		22B502051802F37D004F070A /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				22B502031802F356004F070A /* sports-football.plist */,
+				22B502061802F3AC004F070A /* sports-handball.plist */,
+			);
+			name = Sports;
+			sourceTree = "<group>";
+		};
+		22B502081802F3B0004F070A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				22B502091802F3C1004F070A /* history-1990s.plist */,
+			);
+			name = History;
 			sourceTree = "<group>";
 		};
 		B40F208117F9B80400AC5DCE = {
@@ -288,7 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B5020A1802F3C1004F070A /* history-1990s.plist in Resources */,
+				22B502041802F356004F070A /* sports-football.plist in Resources */,
+				22B502021802F1E4004F070A /* Categories.plist in Resources */,
 				B40F20A617F9B80500AC5DCE /* Images.xcassets in Resources */,
+				22B502071802F3AC004F070A /* sports-handball.plist in Resources */,
 				B40F209817F9B80500AC5DCE /* InfoPlist.strings in Resources */,
 				B40F20A117F9B80500AC5DCE /* Main.storyboard in Resources */,
 			);

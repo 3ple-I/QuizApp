@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>Vem har gjort flest landslagsmål?</string>
+			<key>right</key>
+			<string>Ali Daei</string>
+			<key>wrong</key>
+			<array>
+				<string>Pelé</string>
+				<string>Diego Maradona</string>
+				<string>Lionel Messi</string>
+				<string>Ronaldinho</string>
+				<string>Gerd Müller</string>
+				<string>Ronaldo Luiz Nazario</string>
+				<string>Lukas Podolski</string>
+			</array>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Vad heter Zlatan i efternamn?</string>
+			<key>right</key>
+			<string>Ibrahimovic</string>
+			<key>wrong</key>
+			<array>
+				<string>Eriksson</string>
+				<string>Mellberg</string>
+				<string>Larsson</string>
+				<string>Taherzadeh</string>
+				<string>Labinaot</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

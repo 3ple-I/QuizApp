@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>categories</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>History</string>
+			<key>files</key>
+			<array>
+				<string>history-1990s.plist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Sports</string>
+			<key>files</key>
+			<array>
+				<string>sports-football.plist</string>
+				<string>sports-handball.plist</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
