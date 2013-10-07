@@ -8,6 +8,14 @@
 	<array>
 		<dict>
 			<key>title</key>
+			<string>Technology</string>
+			<key>files</key>
+			<array>
+				<string>tech-programming.plist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
 			<string>History</string>
 			<key>files</key>
 			<array>

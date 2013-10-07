@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>Which one of these languages run in a VM?</string>
+			<key>right</key>
+			<string>Java</string>
+			<key>wrong</key>
+			<array>
+				<string>Python</string>
+				<string>C++</string>
+				<string>ADA</string>
+				<string>Objective-C</string>
+				<string>AppleScript</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
