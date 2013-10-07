@@ -8,7 +8,7 @@
 	<array>
 		<dict>
 			<key>question</key>
-			<string>Which one of these languages run in a VM?</string>
+			<string>Which one of these languages run in a Virtual Machine?</string>
 			<key>right</key>
 			<string>Java</string>
 			<key>wrong</key>
