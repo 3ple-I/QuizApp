@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "QACategory.h"
+#import "QAQuestion.h"
 
 @interface QADataController : NSObject
 

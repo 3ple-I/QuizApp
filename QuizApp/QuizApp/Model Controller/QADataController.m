@@ -60,16 +60,24 @@ static QADataController *_sharedInstance = nil;
 		
 	}*/
 	
+	_categories = [[NSMutableArray alloc] init];
+	
 	// The Objective-C way:
 	for(NSDictionary *categoryDict in dataForAllCategories)
 	{
-		//NSLog(@"%@", categoryDict);
 		QACategory *category = [[QACategory alloc] init];
 		category.name = [categoryDict objectForKey:@"name"];
+		category.questions = [[NSMutableArray alloc] init];
+		NSLog(@"---- %@ ----", category.name);
 		for(NSString *filename in [categoryDict objectForKey:@"files"])
 		{
-			NSArray *questions = [self loadQuestionsFromFile:[[NSBundle mainBundle] pathForResource:filename ofType:@"plist"]];
+			NSLog(@"-> %@", filename);
+			[category.questions addObjectsFromArray:[self loadQuestionsFromFile:[[NSBundle mainBundle] pathForResource:filename
+																												ofType:@"plist"]]];
 		}
+		NSLog(@"%@", category.questions);
+		
+		[_categories addObject:category];
 	}
 }
 
@@ -88,11 +96,11 @@ static QADataController *_sharedInstance = nil;
 		question.right = [dataForOneQuestion objectForKey:@"right"];
 		question.wrong = [dataForOneQuestion objectForKey:@"wrong"];
 		
-		NSLog(@"-- Question --");
+		/*NSLog(@"-- Question --");
 		NSLog(@"Question: %@", question.question);
 		NSLog(@"Hint: %@", question.hint);
 		NSLog(@"Right: %@", question.right);
-		NSLog(@"Wrong: %@", question.wrong);
+		NSLog(@"Wrong: %@", question.wrong);*/
 		
 		[questionsToReturn addObject:question];
 	}

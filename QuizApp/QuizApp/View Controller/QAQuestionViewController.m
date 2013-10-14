@@ -23,6 +23,11 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+	self.navigationItem.title = self.category.name;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

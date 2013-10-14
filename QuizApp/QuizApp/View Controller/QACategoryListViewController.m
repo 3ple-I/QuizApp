@@ -7,6 +7,9 @@
 //
 
 #import "QACategoryListViewController.h"
+#import "QAQuestionViewController.h"
+#import "QADataController.h"
+#import "QACategoryCell.h"
 
 @interface QACategoryListViewController ()
 
@@ -44,24 +47,24 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 1;
+    return [[[QADataController sharedController] categories] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    QACategoryCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
+	QACategory *category = [[[QADataController sharedController] categories] objectAtIndex:indexPath.row];
+	
+	cell.categoryNameLabel.text = category.name;
     
     return cell;
 }
@@ -105,7 +108,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -113,8 +116,17 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+	
+	if([[segue identifier] isEqualToString:@"StartGame"])
+	{
+		QAQuestionViewController *destinationViewController = [segue destinationViewController];
+		NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+		QACategory *category = [[[QADataController sharedController] categories] objectAtIndex:indexPath.row];
+		
+		destinationViewController.category = category;
+		// Same as above: [destinationViewController setCategory:category];
+		NSLog(@"%@", category);
+	}
 }
-
- */
 
 @end

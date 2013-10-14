@@ -10,4 +10,9 @@
 
 @implementation QACategory
 
+- (NSString *)description
+{
+	return [NSString stringWithFormat:@"<Category: %@>", self.name];
+}
+
 @end

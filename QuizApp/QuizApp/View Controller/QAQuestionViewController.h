@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QACategory.h"
 
 @interface QAQuestionViewController : UIViewController
+
+@property (nonatomic, strong) QACategory *category;
 
 @end

@@ -10,4 +10,9 @@
 
 @implementation QAQuestion
 
+- (NSString *)description
+{
+	return [NSString stringWithFormat:@"<Question: %@>", self.question];
+}
+
 @end
