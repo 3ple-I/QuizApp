@@ -15,5 +15,6 @@
 + (instancetype)sharedController;
 
 - (void)loadData;
+- (NSArray *)loadQuestionsFromFile:(NSString *)path;
 
 @end

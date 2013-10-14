@@ -44,7 +44,7 @@ static QADataController *_sharedInstance = nil;
 	
 	// Ask the dictionary for the thing called "categories", which we know is an Array
 	// An Array is represented by the NSArray class
-	NSArray *categoryData = [dict objectForKey:@"categories"];
+	NSArray *dataForAllCategories = [dict objectForKey:@"categories"];
 	
 	// Loop through the array, creating a category object for each item, instead of the
 	// generic dictionary the plist gives us
@@ -61,33 +61,43 @@ static QADataController *_sharedInstance = nil;
 	}*/
 	
 	// The Objective-C way:
-	for(NSDictionary *d in categoryData) {
-		
+	for(NSDictionary *categoryDict in dataForAllCategories)
+	{
+		//NSLog(@"%@", categoryDict);
 		QACategory *category = [[QACategory alloc] init];
-		category.name = [d objectForKey:@"name"];
-		NSLog(@"Category Name: %@", category.name);
-		
-		// Loop through the files
-		NSArray *files = [d objectForKey:@"files"];
-		for(NSString *filename in files) {
-			
-			NSLog(@"-> %@", filename);
-			NSDictionary *fileDict = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:filename ofType:nil]];
-			//NSLog(@"%@", fileDict);
-			
-			// Loop through the questions...
-			NSArray *questionsData = [fileDict objectForKey:@"questions"];
-			for(NSDictionary *questionData in questionsData) {
-				
-				QAQuestion *question = [[QAQuestion alloc] init];
-				question.question = [questionData objectForKey:@"question"];
-				NSLog(@"----> %@", question.question);
-				
-			}
-			
+		category.name = [categoryDict objectForKey:@"name"];
+		for(NSString *filename in [categoryDict objectForKey:@"files"])
+		{
+			NSArray *questions = [self loadQuestionsFromFile:[[NSBundle mainBundle] pathForResource:filename ofType:@"plist"]];
 		}
-		
 	}
+}
+
+- (NSArray *)loadQuestionsFromFile:(NSString *)path
+{
+	NSDictionary *fileContents = [NSDictionary dictionaryWithContentsOfFile:path];
+	NSArray *dataForAllQuestions = [fileContents objectForKey:@"questions"];
+	
+	NSMutableArray *questionsToReturn = [[NSMutableArray alloc] init];
+	
+	for(NSDictionary *dataForOneQuestion in dataForAllQuestions)
+	{
+		QAQuestion *question = [[QAQuestion alloc] init];
+		question.question = [dataForOneQuestion objectForKey:@"question"];
+		question.hint = [dataForOneQuestion objectForKey:@"hint"];
+		question.right = [dataForOneQuestion objectForKey:@"right"];
+		question.wrong = [dataForOneQuestion objectForKey:@"wrong"];
+		
+		NSLog(@"-- Question --");
+		NSLog(@"Question: %@", question.question);
+		NSLog(@"Hint: %@", question.hint);
+		NSLog(@"Right: %@", question.right);
+		NSLog(@"Wrong: %@", question.wrong);
+		
+		[questionsToReturn addObject:question];
+	}
+	
+	return questionsToReturn;
 }
 
 @end

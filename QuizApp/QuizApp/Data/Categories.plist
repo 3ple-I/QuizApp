@@ -11,7 +11,7 @@
 			<string>Technology</string>
 			<key>files</key>
 			<array>
-				<string>tech-programming.plist</string>
+				<string>tech-programming</string>
 			</array>
 		</dict>
 		<dict>
@@ -19,7 +19,7 @@
 			<string>History</string>
 			<key>files</key>
 			<array>
-				<string>history-1990s.plist</string>
+				<string>history-1990s</string>
 			</array>
 		</dict>
 		<dict>
@@ -27,8 +27,8 @@
 			<string>Sports</string>
 			<key>files</key>
 			<array>
-				<string>sports-football.plist</string>
-				<string>sports-handball.plist</string>
+				<string>sports-football</string>
+				<string>sports-handball</string>
 			</array>
 		</dict>
 	</array>
