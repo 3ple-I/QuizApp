@@ -150,11 +150,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		229DA0EB18157EB60013EFA8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		229DA0EC18157EF30013EFA8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		229DA0ED18157EF70013EFA8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		22B502051802F37D004F070A /* Sports */ = {
 			isa = PBXGroup;
 			children = (
 				22B502031802F356004F070A /* sports-football.plist */,
 				22B502061802F3AC004F070A /* sports-handball.plist */,
+				229DA0ED18157EF70013EFA8 /* images */,
 			);
 			name = Sports;
 			sourceTree = "<group>";
@@ -163,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				22B502091802F3C1004F070A /* history-1990s.plist */,
+				229DA0EC18157EF30013EFA8 /* images */,
 			);
 			name = History;
 			sourceTree = "<group>";
@@ -171,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				22B5020C1802F6E9004F070A /* tech-programming.plist */,
+				229DA0EB18157EB60013EFA8 /* images */,
 			);
 			name = Technology;
 			sourceTree = "<group>";

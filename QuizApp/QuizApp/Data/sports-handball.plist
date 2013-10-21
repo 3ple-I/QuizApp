@@ -11,6 +11,8 @@
 			<string>Vilket land vann handbolls-VM år 2011? </string>
 			<key>right</key>
 			<string>Frankrike</string>
+			<key>image</key>
+			<string></string>
 			<key>wrong</key>
 			<array>
 				<string>Kroatien</string>

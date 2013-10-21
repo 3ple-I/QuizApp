@@ -26,6 +26,9 @@
 - (void)viewWillAppear:(BOOL)animated
 {
 	self.navigationItem.title = self.category.name;
+	
+	int index = arc4random_uniform([self.category.questions count]);
+	self.question = [[[self category] questions] objectAtIndex:index]; //[self.category.questions objectAtIndex:index];
 }
 
 - (void)viewDidLoad
@@ -38,6 +41,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)actionAnswer:(id)sender {
+	
+}
+
+- (IBAction)actionHint:(id)sender {
+}
+
+- (IBAction)actionQuit:(id)sender {
 }
 
 @end

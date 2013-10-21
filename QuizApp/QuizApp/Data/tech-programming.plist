@@ -11,6 +11,8 @@
 			<string>Which one of these languages run in a Virtual Machine?</string>
 			<key>right</key>
 			<string>Java</string>
+			<key>image</key>
+			<string>technology_vm.png</string>
 			<key>wrong</key>
 			<array>
 				<string>Python</string>

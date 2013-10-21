@@ -13,6 +13,8 @@
 			<string>Målet gjordes mot Nordirland i en vänskapsmatch.</string>
 			<key>right</key>
 			<string>2002</string>
+			<key>image</key>
+			<string></string>
 			<key>wrong</key>
 			<array>
 				<string>2001</string>
@@ -28,6 +30,8 @@
 			<string>Vilket landslag var först med att vinna Fotbolls-VM två gånger i rad?</string>
 			<key>right</key>
 			<string>Italien</string>
+			<key>image</key>
+			<string></string>
 			<key>wrong</key>
 			<array>
 				<string>Brasilien</string>
@@ -44,6 +48,8 @@
 			<string>Vem har gjort flest landslagsmål?</string>
 			<key>right</key>
 			<string>Ali Daei</string>
+			<key>image</key>
+			<string></string>
 			<key>wrong</key>
 			<array>
 				<string>Pelé</string>
@@ -60,6 +66,8 @@
 			<string>Vad heter Zlatan i efternamn?</string>
 			<key>right</key>
 			<string>Ibrahimovic</string>
+			<key>image</key>
+			<string></string>
 			<key>wrong</key>
 			<array>
 				<string>Eriksson</string>
