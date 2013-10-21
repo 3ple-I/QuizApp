@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		22268AFD17F9C5CA00ED2512 /* QACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AFC17F9C5CA00ED2512 /* QACategory.m */; };
 		22268B0017F9C76200ED2512 /* QAQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 22268AFF17F9C76200ED2512 /* QAQuestion.m */; };
-		224DE632180C2DA80049976F /* zlatan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 224DE631180C2DA80049976F /* zlatan.jpg */; };
 		224DE636180C2E7A0049976F /* QACategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224DE635180C2E7A0049976F /* QACategoryCell.m */; };
+		229DA0EA18155D490013EFA8 /* zlatan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 229DA0E918155D490013EFA8 /* zlatan.jpg */; };
 		22B502021802F1E4004F070A /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B502011802F1E4004F070A /* Categories.plist */; };
 		22B502041802F356004F070A /* sports-football.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B502031802F356004F070A /* sports-football.plist */; };
 		22B502071802F3AC004F070A /* sports-handball.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B502061802F3AC004F070A /* sports-handball.plist */; };
@@ -53,9 +53,9 @@
 		22268AFC17F9C5CA00ED2512 /* QACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACategory.m; sourceTree = "<group>"; };
 		22268AFE17F9C76200ED2512 /* QAQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAQuestion.h; sourceTree = "<group>"; };
 		22268AFF17F9C76200ED2512 /* QAQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAQuestion.m; sourceTree = "<group>"; };
-		224DE631180C2DA80049976F /* zlatan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zlatan.jpg; path = ../../../../../../Desktop/zlatan.jpg; sourceTree = "<group>"; };
 		224DE634180C2E7A0049976F /* QACategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACategoryCell.h; sourceTree = "<group>"; };
 		224DE635180C2E7A0049976F /* QACategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACategoryCell.m; sourceTree = "<group>"; };
+		229DA0E918155D490013EFA8 /* zlatan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zlatan.jpg; sourceTree = "<group>"; };
 		22B502011802F1E4004F070A /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
 		22B502031802F356004F070A /* sports-football.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sports-football.plist"; sourceTree = "<group>"; };
 		22B502061802F3AC004F070A /* sports-handball.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sports-handball.plist"; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		22268AE917F9C32A00ED2512 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				224DE631180C2DA80049976F /* zlatan.jpg */,
+				229DA0E918155D490013EFA8 /* zlatan.jpg */,
 				22B502011802F1E4004F070A /* Categories.plist */,
 				22B5020B1802F6D9004F070A /* Technology */,
 				22B502081802F3B0004F070A /* History */,
@@ -361,7 +361,7 @@
 				22B502021802F1E4004F070A /* Categories.plist in Resources */,
 				B40F20A617F9B80500AC5DCE /* Images.xcassets in Resources */,
 				22B5020D1802F6E9004F070A /* tech-programming.plist in Resources */,
-				224DE632180C2DA80049976F /* zlatan.jpg in Resources */,
+				229DA0EA18155D490013EFA8 /* zlatan.jpg in Resources */,
 				22B502071802F3AC004F070A /* sports-handball.plist in Resources */,
 				B40F209817F9B80500AC5DCE /* InfoPlist.strings in Resources */,
 				B40F20A117F9B80500AC5DCE /* Main.storyboard in Resources */,
